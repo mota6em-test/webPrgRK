@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(-45deg, #ffd900, #573dff, #23a6d5, #00ffc3);
+    background-size: 400% 400%;
+    animation: gradient 25s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+section{
+    margin: 5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+a{
+    display: block;
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: rgb(28, 88, 108);
+}
+
+h1{
+    font-size: 1.8rem;
+}
