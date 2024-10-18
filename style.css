@@ -34,11 +34,27 @@ a{
     margin: 1rem;
     font-size: 1.3rem;
     color: rgb(28, 88, 108);
+    text-decoration-color: rgba(17, 50, 50, 0.304);
 }
-
+.downZip{
+    color: black;
+    text-decoration-color: rgba(0, 0, 0, 0.502);
+}
 @media screen and (max-width: 450px) {
     section {
         margin: 1rem 0.5rem;
+    }
+    a{
+        font: 0.9rem;
+        margin: 0.5rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 1100px) {
+    section {
+        margin: 2rem 1rem;
     }
     a{
         font: 0.9rem;
