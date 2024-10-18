@@ -36,6 +36,18 @@ a{
     color: rgb(28, 88, 108);
 }
 
+@media screen and (max-width: 450px) {
+    section {
+        margin: 1rem 0.5rem;
+    }
+    a{
+        font: 0.9rem;
+        margin: 0.5rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+}
 h1{
     font-size: 1.8rem;
 }
